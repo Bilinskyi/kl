@@ -26,13 +26,15 @@ $normal: 14px;
 
 $bp-xxx-large:   "only screen and (max-width : 1500px)";
 $bp-xx-large:   "only screen and (min-width : 1400px)";
-$bp-x-large:    "only screen and (min-width : 1201px)";
-$min-s:    "only screen and (min-width : 768px)";
+$min-s:    "only screen and (min-width : 783px)";
+$min-m:    "only screen and (min-width : 1030px)";
+$min-l:    "only screen and (min-width : 1230px)";
+$min-ll:    "only screen and (min-width : 1300px)";
 
-$bp-blarge:      "only screen and (max-width : 1400px)";
-$bp-large:      "only screen and (max-width : 1199px)";
-$bp-medium:     "only screen and (max-width : 991px)";
-$bp-small:      "only screen and (max-width : 767px)";
+$bp-blarge:      "only screen and (max-width : 1299px)";
+$bp-large:      "only screen and (max-width : 1229px)";
+$bp-medium:     "only screen and (max-width : 1029px)";
+$bp-small:      "only screen and (max-width : 782px)";
 $bp-smm:      "only screen and (max-width : 550px)";
 $bp-xsmall:    "only screen and (max-width : 479px)";
 $bp-xxsmall:    "only screen and (max-width : 320px)";

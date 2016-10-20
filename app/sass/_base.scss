@@ -1,15 +1,23 @@
-::-webkit-input-placeholder {font-family: 'Open Sans', sans-serif;color: rgba(236, 111, 6, 0.34);font-size: 14px;font-weight: 400;}
-::-moz-placeholder {font-family: 'Open Sans', sans-serif;color: rgba(236, 111, 6, 0.34);font-size: 14px;font-weight: 400;}
-:-moz-placeholder {font-family: 'Open Sans', sans-serif;color: rgba(236, 111, 6, 0.34);font-size: 14px;font-weight: 400;}
-:-ms-input-placeholder {font-family: 'Open Sans', sans-serif;color: rgba(236, 111, 6, 0.34);font-size: 14px;font-weight: 400;}
+::-webkit-input-placeholder {color: #4a4a4a;font-size: 14px;   font-family: 'Conv_MuseoSansCyrl-500';@media #{$bp-large} {
+      font-size: 12px;
+}}
+::-moz-placeholder {color: #4a4a4a;font-size: 14px;   font-family: 'Conv_MuseoSansCyrl-500';@media #{$bp-large} {
+      font-size: 12px;
+}}
+:-moz-placeholder {color: #4a4a4a;font-size: 14px;   font-family: 'Conv_MuseoSansCyrl-500';@media #{$bp-large} {
+      font-size: 12px;
+}}
+:-ms-input-placeholder {color: #4a4a4a;font-size: 14px;   font-family: 'Conv_MuseoSansCyrl-500';@media #{$bp-large} {
+      font-size: 12px;
+}}
 
 
 *, *:before, *:after {
   box-sizing: border-box;
 }
 .inline-center{text-align: center;}
-.left-t{text-align: left;}
-.right-t{text-align: right;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
 .right{float: right!important;}
 .left{float: left!important;}
 .clearfix:before, .clearfix:after {content: "";display: table;}
@@ -20,8 +28,7 @@
 body {
   position: relative; 
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-family: 'Conv_MuseoSansCyrl-500';
 }
 
 ul {
