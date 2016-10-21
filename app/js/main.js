@@ -12,6 +12,7 @@ $(document).ready(function(){
 		dots: false,
 		nav:true
 	});
+	
 
 
 	$('.owl-carousel-2').owlCarousel({
